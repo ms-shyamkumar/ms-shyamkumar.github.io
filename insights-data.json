@@ -1,0 +1,44 @@
+{
+    "insights": [
+        {
+            "title": "Zero to One by Peter Theil",
+            "description": "Notes on Startups, or how to build the future",
+            "category": "Book Summary",
+            "date": "08-01-2021",
+            "meta": ["Book Summary", "2021", "Updated 2 days ago"],
+            "embedUrl": "https://docs.google.com/presentation/d/e/2PACX-1vSnC7Wb4LwRmPZkzo1nLqZwdnjpQdbAYwcmU6N9ksOz-lq6ZKUQG6U43p6Q-PEYhDXQsbuUvMTVqXpO/embed?start=false&loop=false&delayms=3000"
+        },
+        {
+            "title": "The Paradox of Choice by Barry Schwartz",
+            "description": "Why more is less",
+            "category": "Book Summary",
+            "date": "08-01-2021",
+            "meta": ["Book Summary", "2021", "Updated 1 hour ago"],
+            "embedUrl": "https://docs.google.com/presentation/d/e/2PACX-1vSj-a0emtG3nqxK-9-4hG0ys77ESzS1nG_vVuwvNeVgVKZ3XcCBnDBu9rOtnow7ehsPlsRvjnXON3rN/embed?start=false&loop=false&delayms=3000"
+        },
+        {
+            "title": "LTE Data Speed Analysis - India",
+            "description": "Comparison of LTE data speeds of various Operators and Regions",
+            "category": "Dashboards",
+            "date": "31-01-2021",
+            "meta": ["Dashboards", "User Behavior", "Updated yesterday"],
+            "embedUrl": "https://datastudio.google.com/embed/reporting/cbdd2ac0-33eb-45d3-925c-8e531a979cf2/page/DQY0B"
+        },
+        {
+            "title": "How to Create a Mind by Ray Kurzweil",
+            "description": "The Secret of Human Thoughts Revealed",
+            "category": "Book Summary",
+            "date": "08-01-2021",
+            "meta": ["Book Summary", "08-01-2021", "Updated last week"],
+            "embedUrl": "https://docs.google.com/presentation/d/e/2PACX-1vTwA7XOXRi8hHRI7osQVd4xd-5RkLVeRMXux95kwgAXMkjfj7Zwftddn8q68DKHU8Z-YJGSptSs7wKB/embed?start=false&loop=false&delayms=300"
+        },
+		{
+            "title": "Everybody Lies by Seth Stephens-Davidowitz",
+            "description": "Big Data, New Data, and What the Internet can tell us about who we really are",
+            "category": "Book Summary",
+            "date": "08-01-2021",
+            "meta": ["Book Summary", "08-01-2021", "Updated last week"],
+            "embedUrl": "https://docs.google.com/presentation/d/e/2PACX-1vQuEu-RMLNsuHx_R7iAm81jNt46nHQEalTjUAS_upUFTy5lgV1diXErNhf0SrBvhJqdNV6vuPosrk4r/embed?start=false&loop=false&delayms=3000"
+        }
+    ]
+}

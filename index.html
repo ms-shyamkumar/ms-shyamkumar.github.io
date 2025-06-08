@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Shyamkumar MS</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.png" type="image/x-icon" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="/css/styles.css" />
-  </head>
-  <body>
-    <div id="nav-placeholder">
-      <script>
-        $(function () {
-          $("#nav-placeholder").load("/common/nav.html");
-        });
-      </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Insights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+		<div class="menu-bar", id="menu-bar">
+			<div class="menu-items">
+				<a href="index.html" class="active">Insights</a>
+				<a href="about.html">About</a>
+			</div>
+        </div>
+        <div class="subtitle"><b>Data Driven Insights and Analytics</b></div>
+        
+        <div class="content-wrapper">
+            <div class="sidebar" id="sidebar">
+                <button class="toggle-sidebar" onclick="toggleSidebar()">☰</button>
+                <div class="sidebar-content">
+                    <input type="text" id="search" placeholder="Search contents..." oninput="filterItems()">
+                    <div id="categories"></div>
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <div class="sort-options">
+                    <select id="sort" onchange="sortItems()">
+                        <option value="date">Sort by Date</option>
+                        <option value="title">Sort Alphabetically</option>
+                    </select>
+                </div>
+                <div id="content-list"></div>
+            </div>
+        </div>
+        
+        <div class="modal" id="content-modal">
+		<span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">             
+                <iframe id="content-frame" frameborder="0"></iframe>
+            </div>
+        </div>
+        
+        <footer>
+            © 2025 All rights reserved.
+        </footer>
     </div>
-</br>
-    <div align="center">
-      <iframe
-        width="683"
-        height="400"
-        src="https://datastudio.google.com/embed/reporting/cbdd2ac0-33eb-45d3-925c-8e531a979cf2/page/DQY0B"
-        frameborder="0"
-        style="border: 1px solid gray"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <br /><br />
-  </body>
+    
+    <script src="scripts.js"></script>
+</body>
 </html>
