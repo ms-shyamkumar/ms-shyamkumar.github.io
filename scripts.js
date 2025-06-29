@@ -102,6 +102,7 @@ function sortItems(contents = null, sortValue = null) {
 }
 
 // Open content in modal
+/*
 function openContent(url, title) {
     const modal = document.getElementById('content-modal');
     const frame = document.getElementById('content-frame');
@@ -120,7 +121,7 @@ function closeModal() {
     document.body.style.overflow = 'auto';
     modal.style.display = 'none';
 }
-
+*/
 // Toggle sidebar collapse
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
