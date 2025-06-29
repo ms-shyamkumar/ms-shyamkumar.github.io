@@ -45,7 +45,7 @@ function rendercontents(contents) {
     let contentsHTML = '';
     contents.forEach(content => {
         contentsHTML += `
-            <div class="content-card" <a href='${content.embedUrl}'  target="_blank">, '${content.title}</a>
+            <div class="content-card" <a href='${content.embedUrl}'  target="_blank">, '${content.title}'</a>
                 <div class="content-title">${content.title}</div>
                 <div class="content-description">${content.description}</div>
                 <div class="content-meta">
