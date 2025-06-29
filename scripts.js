@@ -45,7 +45,7 @@ function rendercontents(contents) {
     let contentsHTML = '';
     contents.forEach(content => {
         contentsHTML += `
-            <div class="content-card" <a href='${content.embedUrl}'  target="_blank">, '${content.title}'</a>
+             <div class="content-card" onclick="openContent('${content.embedUrl}', '${content.title}')">
                 <div class="content-title">${content.title}</div>
                 <div class="content-description">${content.description}</div>
                 <div class="content-meta">
@@ -102,7 +102,7 @@ function sortItems(contents = null, sortValue = null) {
 }
 
 // Open content in modal
-/*
+
 function openContent(url, title) {
     const modal = document.getElementById('content-modal');
     const frame = document.getElementById('content-frame');
@@ -121,7 +121,7 @@ function closeModal() {
     document.body.style.overflow = 'auto';
     modal.style.display = 'none';
 }
-*/
+
 // Toggle sidebar collapse
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
