@@ -1,5 +1,13 @@
 {
     "insights": [
+	{
+            "title": "Most Cited Documents up to 2020 (Citations >100)",
+            "description": "Books, Papers, Conferences, Repositories",
+            "category": "Dashboards",
+            "date": "29-06-2025",
+            "meta": ["Dashboards", "2025", "Updated 2 days ago"],
+            "embedUrl": "https://lookerstudio.google.com/reporting/20b03618-ebe7-4f01-a5cc-0d72d20e5dab"
+        },
         {
             "title": "Zero to One by Peter Theil",
             "description": "Notes on Startups, or how to build the future",
